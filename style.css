@@ -79,7 +79,7 @@ body {
     right: 30px;
     display: inline-block;
     animation: movein 3s infinite ease-in;
-    z-index: 9999999;
+    z-index: 99;
 }
 
 .buy a {
@@ -215,21 +215,6 @@ a .menu {
     transition: 0.5s;
 }
 
-.slide-in {
-    animation: slide-in 0.5s ease forwards;
-}
-
-
-@keyframes slide-in{
-    from{
-        transform: translateX(100%);
-        visibility: visible;
-    }
-
-    to{
-        transform: translateX(0%);
-    }
-}
 
 
 
@@ -252,11 +237,25 @@ a .menu {
 @media screen and (max-width:900px) {
     .landing-page{
         background-size: cover;
+        
+    }
+
+    .cover {
+        height: 100vh;
     }
 
     .nav-bar{
-       padding-top: 30%; 
+       padding-top: 5px; 
        padding-bottom: 30px;
+       display: flex;
+    }
+
+    .nav-bar h1 {
+        position: relative;
+        padding: 0 100vw;
+        top: 55px;
+        font-size: 45px;
+        left: 90px;
     }
 
     .buy a {
@@ -269,7 +268,7 @@ a .menu {
 
     a .menu{
         flex-direction: row;
-        height: 30vh;
+        height: 16vh;
         width: 100vw;
         padding: 0 15px;
     }
@@ -281,8 +280,20 @@ a .menu {
     .menu-inner1 h1 {
         font-size: 23px;
         letter-spacing: 1px;
+        margin-bottom: 5px;
+    } 
+
+    .menu-inner1 h4 {
+        font-size: 13px;
     }
 
-    
+    .menu-inner2 h4 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .menu-inner2 i {
+        font-size: 30px;
+    }
 }
 
