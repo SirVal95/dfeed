@@ -52,8 +52,8 @@
     background: #bebe32;
     padding: 15px;
     border-radius: 50%;
-    font-size: 60px;
-    margin-bottom: -50px;
+    font-size: 45px;
+    margin-bottom: -37px;
 }
 
 .in-contact2 {
@@ -250,62 +250,6 @@ form button i {
 
 
 
-/* footer */
-
-.in-contact-3 {
-    width: 100%;
-    height: auto;
-    background: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.in-contact-3 .nav-ba h1{
-    font-size: 55px;
-    font-weight: 900;
-    margin-top: 50px;
-    color: #ffff;
-    padding: 40px;
-    letter-spacing: 3px;
-    cursor: context-menu;
-    font-family: 'Solitreo', cursive;
-}
-
-.nav-ba h1 span {
-    color: #bebe32;
-    font-size: 70px;
-}
-
-.menu-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-link a, .in-contact-3 p a {
-    text-decoration: none;
-    color: #bebe32;
-    font-size: 16px;
-    margin-right: 15px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    transition: 0.5s ease;
-}
-
-.menu-link a:hover, .in-contact-3 p a:hover {
-    text-decoration: underline;
-}
-
-.in-contact-3 p {
-    color: #ffff;
-    font-size: 16px;
-    letter-spacing: 2px;
-    line-height: 25px;
-    margin: 40px 0;
-}
-
 
  
 
@@ -336,15 +280,6 @@ form button i {
 
     .timetable-m {
         margin-top: 30px;
-    }
-
-    .menu-link {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu-link a{
-        margin-bottom: 10px;
     }
 
     
