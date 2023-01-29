@@ -21,31 +21,11 @@
 window.onload = () => {
     const transition_el = document.querySelector('.transition');
     const anchors = document.querySelectorAll('a')
+    
 
     setTimeout(() => {
         transition_el.classList.remove('is-active')
     }), 1000;
-
-
-
-
-// document.body.scrollTop > 20 ||
-    // for (let i = 0; i < anchors.length; i++) {
-    //     const anchor = anchors[i];
-
-    //     anchor.addEventListener('click', e => {
-    //         e.preventDefault();
-    //         let target = e.target.href;
-
-    //         transition_el.classList.add('is-active');
-
-    //         setTimeout(() => {
-    //             window.location.href = target;
-    //         }, 1000);
-    //     })
-
-        
-    // }
 }
 
 
@@ -72,6 +52,85 @@ function topFunction () {
 
 
 
+// for our menu
+
+const Dishes = document.querySelector('.dishes');
+Dishes.style.display = "none"
+
+const Drinks = document.querySelector('.drinks');
+Drinks.style.display = 'none';
+
+const Wine = document.querySelector('.wine');
+Wine.style.display = 'none';
+
+function appetizer() {
+  let x = document.getElementById("appetizers");
+  let y = document.getElementById("dishes");
+  let z = document.getElementById("drinks");
+  let a = document.getElementById("wine");
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none"
+      z.style.display = "none"
+      a.style.display = "none"
+  }
+  else {
+      x.style.display = "block"
+  }
+}
+function dishes() {
+  let x = document.getElementById("dishes");
+  let y = document.getElementById("appetizers");
+  let z = document.getElementById("drinks");
+  let a = document.getElementById("wine");
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none"
+      a.style.display = "none"
+      z.style.display = "none"
+  }
+  else {
+      x.style.display = "block"
+  }
+}
+function drinks() {
+  let x = document.getElementById("drinks");
+  let y = document.getElementById("dishes");
+  let z = document.getElementById("appetizers");
+  let a = document.getElementById("wine");
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none"
+      z.style.display = "none"
+      a.style.display = "none"
+  }
+  else {
+      x.style.display = "block"
+  }
+}
+function wine() {
+  let x = document.getElementById("wine");
+  let y = document.getElementById("dishes");
+  let z = document.getElementById("drinks");
+  let a = document.getElementById("appetizers");
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none"
+      z.style.display = "none"
+      a.style.display = "none"
+  }
+  else {
+      x.style.display = "block"
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -91,4 +150,4 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.for-about h1, .for-about h3, .for-about h4, .in-in-about2 .p1', { delay: 50, interval:100, origin: 'top' });
-ScrollReveal().reveal('.testimonies, .in-in-about2 .img1, .footer', { delay: 50, interval:100, origin: 'bottom' });
+ScrollReveal().reveal('.testimonies, .in-in-about2 .img1', { delay: 50, interval:100, origin: 'bottom' });

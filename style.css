@@ -19,7 +19,7 @@ body {
     overflow: hidden;
     transition: 1s;
     animation: bgchange 40s infinite ease-in;
-    animation-direction: alternate-reverse;
+    animation-direction: alternate;
 }
 
 @keyframes bgchange {
