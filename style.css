@@ -19,7 +19,6 @@ body {
     overflow: hidden;
     transition: 1s;
     animation: bgchange 40s infinite ease-in;
-    animation-direction: alternate;
 }
 
 @keyframes bgchange {
@@ -30,7 +29,7 @@ body {
         background-repeat: no-repeat;
     }
     20% {
-        background:url(assets/images/small-pink-cart-tasty-cookies-with-glass-pitcher-milk-marble-table_114579-47549.webp)no-repeat;
+        background:url(assets/images/glass-milk-corn-balls-glass-bowl-blue-background-high-quality-photo_114579-75520.webp)no-repeat;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -256,7 +255,7 @@ a .menu {
 .footer {
     width: 100%;
     height: auto;
-    background: #000;
+    background: #0f0f0f;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

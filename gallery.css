@@ -1,7 +1,7 @@
 .in-gallery {
     width: 100%;
     height: 70vh;
-    background: linear-gradient(0deg, #0c0c06a4, #0c0c06a4), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
+    background: linear-gradient(0deg, #0c0c066c, #0c0c064d), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .in-in-gallery h4 {
-    background: #bebe3269;
+    background: #61611a;
     color: #ffff;
     font-weight: 100;
     font-size: 15px;
@@ -49,12 +49,39 @@
 }
 
 .in-gallery .fa-images {
-    background: #bebe32;
+    background: #61611a;
     padding: 15px;
     border-radius: 50%;
     font-size: 45px;
     margin-bottom: -37px;
     z-index: 1;
+}
+
+.in-gallery2 {
+    background: #0f0f0f;
+    width: 100%;
+    height: auto;
+    padding: 100px 0 20px 0;
+}
+
+.gallery-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-main img {
+    margin: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    pointer-events: all;
+    transition: 0.5s;
+}
+
+.gallery-main img:hover {
+    transform: translateY(-10px);
 }
 
 
@@ -66,6 +93,13 @@
 
 
 
-@media screen and (max-width:900px) {
-    
+@media screen and (max-width:1200px) {
+    .gallery-main {
+        flex-direction: column;
+    }
+
+    .gallery-main img {
+        width: 90vw;
+        height: 90vh;
+    }
 }

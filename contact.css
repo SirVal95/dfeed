@@ -1,7 +1,7 @@
 .in-contact {
     width: 100%;
     height: 70vh;
-    background: linear-gradient(0deg, #0c0c06a4, #0c0c06a4), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
+    background: linear-gradient(0deg, #0c0c066c, #0c0c064d), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .in-in-contact h4 {
-    background: #bebe3269;
+    background: #61611a;
     color: #ffff;
     font-weight: 100;
     font-size: 15px;
@@ -49,7 +49,7 @@
 }
 
 .in-contact .fa-phone {
-    background: #bebe32;
+    background: #61611a;
     padding: 15px;
     border-radius: 50%;
     font-size: 45px;
@@ -57,7 +57,7 @@
 }
 
 .in-contact2 {
-    background: #000;
+    background: #0f0f0f;
     width: 100%;
     height: auto;
     padding: 100px 200px 20px 200px;

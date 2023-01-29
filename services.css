@@ -1,7 +1,7 @@
 .in-service {
     width: 100%;
     height: 70vh;
-    background: linear-gradient(0deg, #0c0c06a4, #0c0c06a4), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
+    background: linear-gradient(0deg, #0c0c066c, #0c0c064d), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .in-in-service h4 {
-    background: #bebe3269;
+    background: #61611a;
     color: #ffff;
     font-weight: 100;
     font-size: 15px;
@@ -49,13 +49,124 @@
 }
 
 .in-service .fa-handshake {
-    background: #bebe32;
+    background: #61611a;
     padding: 15px;
     border-radius: 50%;
     font-size: 45px;
     margin-bottom: -37px;
     z-index: 1;
 }
+
+.in-service2 {
+    background: #0f0f0f;
+    width: 100%;
+    height: auto;
+    padding: 100px 150px 20px 150px;
+}
+
+.in-in-service2, .in-in-service3 {
+    text-align: center;
+}
+
+.in-in-service2 h4, .service-main-in h4 {
+    color: #ffff;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.in-in-service2 h3, .service-main-in h3 {
+    color: #bebe32;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.in-in-service2 p, .service-main-in p {
+    color: #ffff;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-main-in p {
+    margin-top: 10px;
+}
+
+.service-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-main-in {
+    text-align: center;
+}
+
+.service-main-in1 {
+    margin-right: 50px;
+}
+
+.service-main-in i {
+    padding: 25px;
+    background: #61611a;
+    font-size: 32px;
+    color: #ffff;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.recommendation {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: #3a3939ef;
+    border-radius: 10px;
+    padding: 40px 10px;
+}
+
+.recommendation h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.recommendation p {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: 'Solitreo', cursive;
+}
+
+.recommendation a {
+    padding: 10px 15px;
+    background: #61611a;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.recommendation a:hover {
+    background: transparent;
+    color: #bebe32;
+    border: 2px solid #bebe32;
+}
+
+
 
 
 
@@ -68,5 +179,19 @@
 
 
 @media screen and (max-width:900px) {
-    
+    .in-service2 {
+        padding: 100px 20px 0 20px;
+    }
+
+    .service-main {
+        flex-direction: column;
+    }
+
+    .service-main-in1 {
+        margin-right: 0;
+    }
+
+    .service-main-in {
+        margin-bottom: 30px;
+    }
 }

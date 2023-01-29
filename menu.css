@@ -1,7 +1,7 @@
 .in-menu {
     width: 100%;
     height: 70vh;
-    background: linear-gradient(0deg, #0c0c06a4, #0c0c06a4), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
+    background: linear-gradient(0deg, #0c0c066c, #0c0c064d), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .in-in-menu h4 {
-    background: #bebe3269;
+    background: #61611a;
     color: #ffff;
     font-weight: 100;
     font-size: 15px;
@@ -49,7 +49,7 @@
 }
 
 .in-menu .fa-utensils {
-    background: #bebe32;
+    background: #61611a;
     padding: 15px;
     border-radius: 50%;
     font-size: 45px;
@@ -78,11 +78,12 @@
     border-radius: 20px;
     color: #bebe32;
     margin-right: 15px;
+    cursor: pointer;
     transition: 0.5s ease;
 }
 
 .theBtn:hover {
-    background: #bebe32;
+    background: #61611a;
     color: #ffff;
 }
 
@@ -100,7 +101,7 @@
 }
 
 .appetizers h3 {
-    background: #bebe32;
+    background: #61611a;
     display: inline-block;
     color: #ffff;
     font-weight: 100;
@@ -108,7 +109,7 @@
     padding: 10px 20px;
     border-radius: 20px;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .appetizer-main {
@@ -150,13 +151,12 @@
     letter-spacing: 2px;
 }
 
-.price h3 {
+.price h6 {
     color: #ffff;
-    font-style: italic;
-    background: #bebe32;
-    padding: 10px;
+    background: #61611a;
+    padding: 6px 12px;
     border-radius: 20px;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 100;
     font-style: italic;
@@ -182,6 +182,7 @@ hr {
     background: #3a3939ef;
     border-radius: 10px;
     padding: 40px 10px;
+    margin-top: 40px;
 }
 
 .recommendation h2 {
@@ -201,8 +202,8 @@ hr {
 }
 
 .recommendation a {
-    padding: 10px;
-    background: #bebe32;
+    padding: 10px 15px;
+    background: #61611a;
     color: #ffff;
     text-decoration: none;
     font-size: 16px;
@@ -217,27 +218,6 @@ hr {
     background: transparent;
     color: #bebe32;
     border: 2px solid #bebe32;
-}
-
-.dishes {
-    width: 100%;
-    height: 100px;
-    background: yellow;
-    display: none;
-}
-
-.drinks {
-    width: 100%;
-    height: 100px;
-    background: blue;
-    display: none;
-}
-
-.wine {
-    width: 100%;
-    height: 100px;
-    background: pink;
-    display: none;
 }
 
 
@@ -256,7 +236,8 @@ hr {
     }
 
     .theBtn {
-        margin-right: 1px;
+        margin-right: 5px;
+        margin-bottom: 10px;
         font-size: 12px;
     }
 
@@ -266,5 +247,13 @@ hr {
 
     .appetizer-main2 {
         margin-left: 0;
+    }
+
+    .appetizer-main p{
+        font-size: 14px;
+    } 
+    
+    .appetizer-main2 p {
+        font-size: 14px;
     }
 }

@@ -1,7 +1,7 @@
 .in-team {
     width: 100%;
     height: 70vh;
-    background: linear-gradient(0deg, #0c0c06a4, #0c0c06a4), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
+    background: linear-gradient(0deg, #0c0c066c, #0c0c064d), url(assets/images/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.webp) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .in-in-team h4 {
-    background: #bebe3269;
+    background:  #61611a;
     color: #ffff;
     font-weight: 100;
     font-size: 15px;
@@ -49,7 +49,7 @@
 }
 
 .in-team .fa-people-group {
-    background: #bebe32;
+    background:  #61611a;
     padding: 15px;
     border-radius: 50%;
     font-size: 45px;
@@ -57,6 +57,70 @@
     z-index: 1;
 }
 
+.in-team2 {
+    background: #0f0f0f;
+    width: 100%;
+    height: auto;
+    padding: 100px 150px 20px 150px;
+}
+
+.in-in-team2 {
+    text-align: center;
+}
+
+.in-in-team2 h4, .team-main-in h4 {
+    color: #ffff;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.in-in-team2 h3, .team-main-in h3 {
+    color: #bebe32;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.in-in-team2 p, .team-main-in p, .team-main-in h6 {
+    color: #ffff;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.team-main-in {
+    text-align: left;
+}
+
+.team-main-in p {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.team-main-in h6 {
+    font-style: italic;
+    text-align: left;
+}
+
+.team-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.team-main img {
+    margin-right: 40px;
+    height: 500px;
+    width: 450px;
+}
 
 
 
@@ -64,9 +128,34 @@
  
 
 
+@media screen and (max-width:1200px) {
+    .team-main {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
 
+    .team-main img {
+        width: 100%;
+        margin: 10px;
+    }
+}
 
 
 @media screen and (max-width:900px) {
 
+    .in-team2 {
+        padding: 100px 20px 0 20px;
+    }
+
+    .team-main {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .team-main img {
+        width: 100%;
+        margin: 10px;
+    }
 }
